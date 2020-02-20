@@ -1,0 +1,113 @@
+.signup-form input {
+    display: block;
+    margin: 0 auto;
+    outline: none;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #0080ca;
+}
+
+.signup-form {
+    text-align: center;
+}
+
+.signup-btn {
+    background: #fc7200;
+    color: #0080ca;
+    margin: 20px;
+    border: none;
+    padding: 10px 20px;
+}
+
+.welcome-logo {
+    margin: 0 auto;
+    display: block;
+}
+
+.sm-logo {
+    width: 100px;
+    height: 100px;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 90%;
+    top: -100px;
+}
+
+.modal {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    height: 90%;
+    width: 80%;
+    background-color: white;
+}
+
+.close {
+    cursor: pointer;
+    display: inline;
+    position: relative;
+    left: 95%;
+    top: -50px;
+}
+
+.links {
+    position: relative;
+    left: 45%;
+    top: -160px;
+    display: inline;
+}
+
+.links a {
+    padding: 10px;
+    text-decoration: none;
+    color: #0080ca;
+}
+
+h1 {
+    font-family: "Shadows Into Light", cursive;
+}
+
+.chat textarea {
+    width: 300px;
+    color: #1a1a19;
+    background-color: #e3e3e3;
+    margin: 10px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.chat-container {
+    height: 250px;
+    margin: 10px;
+    overflow-y: scroll;
+}
+
+.message {
+    display: flex;
+    height: 60px;
+}
+
+.message img {
+    width: 60px;
+    height: 60px;
+}
+
+.bigger-picture {
+    width: 200px;
+    height: 200px;
+}
